@@ -12,3 +12,5 @@ sudo systemctl start grafana-server.service
 sudo systemctl start influxdb
 
 
+#Install collectd (to get system information as disk space, cpu info, etc) to send information to influx
+sudo apt install collectd
