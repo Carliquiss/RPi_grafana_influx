@@ -6,3 +6,9 @@ sudo dpkg -i wget grafana_6.7.3_armhf.deb
 
 #Install InfluxDB
 sudo apt install influxdb influxdb-client -y
+
+#Init services
+sudo systemctl start grafana-server.service
+sudo systemctl start influxdb
+
+
